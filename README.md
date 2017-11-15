@@ -4,6 +4,15 @@ Sylius Shop Api Demo
 install
 ---
 
+```
+$ git clone https://github.com/sdleiw/SyliusApi
+$ cd SyliusApi
+$ composer install
+$ bin/console sylius:install
+$ bin/console server:start
+$ open http://localhost:8000/
+```
+
 config
 ---
 
