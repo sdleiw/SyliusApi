@@ -1,6 +1,8 @@
 Sylius Shop Api Demo
 ===
 
+local demo shop with cutting edge shop api
+
 install
 ---
 
