@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "261d54625a6879d595790212ca3c64ad",
+    "content-hash": "cff4595014221b4f1a3be6618dacb178",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -5342,16 +5342,16 @@
         },
         {
             "name": "sylius/shop-api-plugin",
-            "version": "v1.0.0-beta.20",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Sylius/SyliusShopApiPlugin.git",
-                "reference": "b82a5ac6c4c88cfe1e620e8fb9469ae30977f7aa"
+                "reference": "7ffeeccc04fd6997bb5dfc7d82166a6362ac334e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Sylius/SyliusShopApiPlugin/zipball/b82a5ac6c4c88cfe1e620e8fb9469ae30977f7aa",
-                "reference": "b82a5ac6c4c88cfe1e620e8fb9469ae30977f7aa",
+                "url": "https://api.github.com/repos/Sylius/SyliusShopApiPlugin/zipball/7ffeeccc04fd6997bb5dfc7d82166a6362ac334e",
+                "reference": "7ffeeccc04fd6997bb5dfc7d82166a6362ac334e",
                 "shasum": ""
             },
             "require": {
@@ -5371,6 +5371,9 @@
                 "sylius-labs/coding-standard": "^1.0",
                 "symplify/easy-coding-standard": "^2.4"
             },
+            "suggest": {
+                "nelmio/cors-bundle": "allows you to send Cross-Origin Ajax API Request"
+            },
             "type": "sylius-plugin",
             "autoload": {
                 "psr-4": {
@@ -5382,7 +5385,7 @@
                 "MIT"
             ],
             "description": "Shop API for Sylius E-Commerce.",
-            "time": "2017-09-28T07:17:51+00:00"
+            "time": "2017-11-09 22:18:15"
         },
         {
             "name": "sylius/sylius",
@@ -9663,7 +9666,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "sylius/shop-api-plugin": 10
+        "sylius/shop-api-plugin": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

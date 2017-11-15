@@ -22,7 +22,7 @@
     "require": {
         "php": "^7.1",
         "sylius/sylius": "^1.0",
-        "sylius/shop-api-plugin": "^1.0@beta",
+        "sylius/shop-api-plugin": "dev-master",
         "nelmio/cors-bundle": "^1.5",
         "lexik/jwt-authentication-bundle": "^2.4"
     },
