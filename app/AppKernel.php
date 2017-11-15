@@ -35,6 +35,8 @@ class AppKernel extends Kernel
 
             new \Sylius\ShopApiPlugin\ShopApiPlugin(),
             new \League\Tactician\Bundle\TacticianBundle(),
+            new Nelmio\CorsBundle\NelmioCorsBundle(),
+
         ];
 
         return array_merge(parent::registerBundles(), $bundles);

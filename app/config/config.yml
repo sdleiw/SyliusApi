@@ -68,3 +68,11 @@ fos_rest:
 sylius_shop:
     checkout_resolver:
         pattern: "%sylius.security.shop_regex%/checkout/"
+
+nelmio_cors:
+    paths:
+        '^/shop-api/':
+            allow_origin: ['*']
+            allow_headers: ['Content-Type']
+            allow_methods: ['POST', 'PUT', 'GET', 'DELETE']
+            max_age: 3600
