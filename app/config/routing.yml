@@ -29,3 +29,7 @@ _liip_imagine:
 
 sylius_shop_api:
     resource: "@ShopApiPlugin/Resources/config/routing.yml"
+
+shop_api_login_check:
+    methods: [POST]
+    path: /shop-api/login_check

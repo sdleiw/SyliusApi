@@ -23,7 +23,8 @@
         "php": "^7.1",
         "sylius/sylius": "^1.0",
         "sylius/shop-api-plugin": "^1.0@beta",
-        "nelmio/cors-bundle": "^1.5"
+        "nelmio/cors-bundle": "^1.5",
+        "lexik/jwt-authentication-bundle": "^2.4"
     },
     "require-dev": {
         "behat/behat": "^3.2",
