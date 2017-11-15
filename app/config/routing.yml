@@ -26,3 +26,6 @@ sylius_shop_default_locale:
 
 _liip_imagine:
     resource: "@LiipImagineBundle/Resources/config/routing.xml"
+
+sylius_shop_api:
+    resource: "@ShopApiPlugin/Resources/config/routing.yml"

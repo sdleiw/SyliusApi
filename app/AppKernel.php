@@ -32,6 +32,9 @@ class AppKernel extends Kernel
             new \Sylius\Bundle\AdminApiBundle\SyliusAdminApiBundle(),
 
             new \AppBundle\AppBundle(),
+
+            new \Sylius\ShopApiPlugin\ShopApiPlugin(),
+            new \League\Tactician\Bundle\TacticianBundle(),
         ];
 
         return array_merge(parent::registerBundles(), $bundles);
