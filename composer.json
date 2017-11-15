@@ -21,8 +21,8 @@
     ],
     "require": {
         "php": "^7.1",
-
-        "sylius/sylius": "^1.0"
+        "sylius/sylius": "^1.0",
+        "sylius/shop-api-plugin": "^1.0@beta"
     },
     "require-dev": {
         "behat/behat": "^3.2",
